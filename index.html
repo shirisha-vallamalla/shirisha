@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-image:url('https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?cs=srgb&dl=pexels-pixabay-414102.jpg&fm=jpg')">
+    <div class="box">
+      <form id="doo">
+        <h3
+            style="
+              color:maroon;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              font-size: xx-large;
+            "
+        >
+            <center><b>Registration Form</b></center>
+        <table style="border: 4px solid; line-height:40px; border-radius: 3px; padding-left: 20px ;box-shadow:4px 3px 10px black" cellspacing="7" cellpadding = "6">
+        </h3>
+        <tr>
+          <td><label for="name" style="color:brown"><b>Name</b><span style="color: red">*</span></label></td>
+          <td><input required type="text" id="name" name="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="email"style="color:brown"><b>Email</b><span style="color: red">*</span></label></td>
+          <td><input required type="email" id="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="password"style="color:brown"><b>Password</b><span style="color: red">*</span></label></td>
+          <td><input type="password" id="password" name="password" required /></td>
+        </tr>
+        <tr>
+          <td><label for="dob"style="color:brown"
+            ><b>Date of Birth</b><span style="color: red">*</span></label
+          ></td>
+          <td><input type="date" id="dob" name="dob" required /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="acceptTerms" name="acceptTerms" />
+          <label for="acceptTerms"style="color:brown"><b>Accept TermsConditions</b></label></td>
+        </tr>
+        <tr>
+          <td colspan = "2" align = "center"><button class="button" type="submit"><h4>Submit</h4>
+          </button></td>
+        </tr>
+    </table>
+        <div>
+          <h3 style=" margin-left:120px; margin-top:50px;color:indigo;"><b>Entries</b></h3>
+          <div id="entries" style="margin-left:20px; border:4;"></div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="js1.js"></script>
+</html>
